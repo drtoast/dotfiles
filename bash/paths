@@ -1,0 +1,22 @@
+# Default
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:$PATH
+
+# Me
+export PATH="$HOME/bin:$PATH"
+
+# MacPorts
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export MANPATH=/opt/local/share/man:$MANPATH
+
+# MySQL
+export PATH=/usr/local/mysql/bin:$PATH
+
+# SMP
+export PATH="$HOME/smp-git/bin:$PATH"
+
+# jRuby
+export JRUBY_HOME=/usr/local/jruby;
+export PATH="$PATH:$JRUBY_HOME/bin"
+
+# Perl
+export PERL5LIB=/opt/local/lib/perl5

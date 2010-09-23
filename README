@@ -1,1 +1,6 @@
-Just my own personal dotfiles, inspired by @kasima and @briandoll
+Just my own personal dotfiles, inspired by @kasima and @briandoll.
+
+To install links to dotfiles:
+
+rm ~/.existingdotfile
+./install.rb

@@ -1,0 +1,9 @@
+case `uname` in
+  Linux)
+    alias ls='ls --color=auto'
+    ;;
+esac
+alias l='ls -l'
+
+alias scpresume='rsync --partial --progress -rsh=ssh'
+alias top='/usr/bin/top -ocpu -R -F -s 1 -n30'
