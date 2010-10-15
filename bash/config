@@ -1,6 +1,5 @@
 export CLICOLOR=1
 export TERM=xterm-color
-export EDITOR=vi
 
 NOCOLOR="\[\033[0m\]"
 WHITE_BOLD="\[\033[1;37m\]"

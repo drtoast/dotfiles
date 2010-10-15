@@ -12,7 +12,7 @@ export MANPATH=/opt/local/share/man:$MANPATH
 export PATH=/usr/local/mysql/bin:$PATH
 
 # SMP
-export PATH="$HOME/smp-git/bin:$PATH"
+export PATH="$HOME/code/smp-git/bin:$PATH"
 
 # jRuby
 export JRUBY_HOME=/usr/local/jruby;
