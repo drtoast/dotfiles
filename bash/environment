@@ -3,3 +3,14 @@ export EDITOR="/usr/bin/mate -w"
 
 # smp
 export SMP_PROJECTS=smp
+export RAILS_ENV=development
+
+# perftools
+# use walltime instead of cputime
+CPUPROFILE_REALTIME=1
+
+# profile object allocations
+CPUPROFILE_OBJECTS=0
+
+# profile method calls
+CPUPROFILE_METHODS=1

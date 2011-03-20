@@ -1,12 +1,12 @@
 # Default
-export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=/usr/local/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/sbin:$PATH
 
 # Me
 export PATH="$HOME/bin:$PATH"
 
 # MacPorts
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-export MANPATH=/opt/local/share/man:$MANPATH
+# export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# export MANPATH=/opt/local/share/man:$MANPATH
 
 # MySQL
 export PATH=/usr/local/mysql/bin:$PATH
