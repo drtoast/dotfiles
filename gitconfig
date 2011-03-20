@@ -1,0 +1,13 @@
+[user]
+	name = drtoast
+	email = toast@drtoast.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	editor = emacs
+[branch]
+	autosetuprebase = always
+[apply]
+	whitespace = nowarn
