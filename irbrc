@@ -9,7 +9,7 @@ require 'rubygems'
 # Wirble.colorize
 
 IRB.conf[:SAVE_HISTORY] = 1000
-IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb_history"
+IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb-history"
 IRB.conf[:PROMPT_MODE] = :SIMPLE
 IRB.conf[:AUTO_INDENT] = true
  
@@ -35,7 +35,7 @@ class Object
 end
 
 def foo
-  puts "bar"
+  puts "bar - see #{__FILE__}"
 end
  
 
