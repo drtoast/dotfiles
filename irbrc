@@ -12,7 +12,16 @@ IRB.conf[:SAVE_HISTORY] = 1000
 IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb-history"
 IRB.conf[:PROMPT_MODE] = :SIMPLE
 IRB.conf[:AUTO_INDENT] = true
- 
+
+# from https://github.com/josh/dotfiles/blob/master/irbrc
+def time(times = 1)
+  require 'benchmark'
+  ret = nil
+  Benchmark.bm { |x| x.report { times.times { ret = yield } } }
+  ret
+end
+
+
 class Object
   # list methods which aren't in superclass
   def local_methods(obj = self)

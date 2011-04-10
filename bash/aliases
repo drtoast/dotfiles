@@ -3,6 +3,15 @@ case `uname` in
     alias ls='ls --color=auto'
     ;;
 esac
-alias l='ls -l'
+alias l='ls -al'
 
 alias scpresume='rsync --partial --progress -rsh=ssh'
+
+# Git
+alias gb='git branch'
+alias gba='git branch -a'
+alias gd='git diff'
+
+# Rails
+alias ss='./script/server'
+alias sc='./script/console'
