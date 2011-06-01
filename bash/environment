@@ -3,7 +3,6 @@ export EDITOR="/usr/bin/mate -w"
 
 # smp
 export SMP_PROJECTS=smp
-export RAILS_ENV=development
 
 # perftools
 # use walltime instead of cputime
