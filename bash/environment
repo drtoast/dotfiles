@@ -1,5 +1,6 @@
 # textmate
 export EDITOR="/usr/bin/mate -w"
+export GIT_EDITOR=$EDITOR
 
 # smp
 export SMP_PROJECTS=smp
