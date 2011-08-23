@@ -20,3 +20,6 @@ export PATH="$PATH:$JRUBY_HOME/bin"
 
 # Node
 export NODE_PATH="$NODE_PATH:/usr/local/lib/node"
+
+# TextMate
+export TM_RUBY="/Users/toast/.rvm/bin/rvm-auto-ruby"

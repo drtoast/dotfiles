@@ -2,6 +2,7 @@
 	name = James Reynolds
 	email = toast@drtoast.com
 [color]
+  ui = auto
 	diff = auto
 	status = auto
 	branch = auto
@@ -12,3 +13,5 @@
 	autosetuprebase = always
 [apply]
 	whitespace = nowarn
+[alias]
+  lol=log --graph --decorate --pretty=oneline --abbrev-commit
