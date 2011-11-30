@@ -1,3 +1,5 @@
+--type-set=coffeescript=.coffee
+--type-add=css=.scss,.css
 --type-add=ruby=.haml,.rake,.feature
 --type-add=objc=.pch
 --type-set=xcode=.pbxproj,.pbxuser,.perspectivev3
