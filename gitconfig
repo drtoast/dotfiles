@@ -1,19 +1,18 @@
 [user]
-	name = James Reynolds
-	email = toast@drtoast.com
+  name = James Reynolds
+  email = toast@drtoast.com
 [color]
   ui = auto
-	diff = auto
-	status = auto
-	branch = auto
+  diff = auto
+  status = auto
+  branch = auto
 [core]
-	editor = emacs
-	excludesfile = ~/.gitignore
+  editor = emacs
+  excludesfile = ~/.gitignore
 [branch]
-	autosetuprebase = always
+  autosetuprebase = always
 [apply]
-	whitespace = nowarn
+  whitespace = nowarn
 [alias]
   lol=log --graph --decorate --pretty=oneline --abbrev-commit
   co=checkout
-  
