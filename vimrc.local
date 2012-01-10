@@ -1,0 +1,8 @@
+color blackboard
+map <F4> :TlistToggle<cr>
+map <leader>tb :CommandTBuffer<cr>
+imap <D-]> <ESC>>>i
+nmap <D-]> >>
+imap <D-[> <ESC><<i
+nmap <D-[> <<
+

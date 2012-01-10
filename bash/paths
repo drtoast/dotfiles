@@ -18,5 +18,8 @@ export PATH="$HOME/code/smp-git/bin:$PATH"
 export JRUBY_HOME=/usr/local/jruby;
 export PATH="$PATH:$JRUBY_HOME/bin"
 
-# Perl
-export PERL5LIB=/opt/local/lib/perl5
+# Node
+export NODE_PATH="$NODE_PATH:/usr/local/lib/node"
+
+# TextMate
+export TM_RUBY="/Users/toast/.rvm/bin/rvm-auto-ruby"

@@ -1,16 +1,15 @@
 # textmate
-export EDITOR="/usr/bin/mate -w"
+export EDITOR="/usr/local/bin/mate -w"
 export GIT_EDITOR=$EDITOR
 
-# smp
-export SMP_PROJECTS=smp
+# capybara webkit: verbose output
+SPEC_OPTS="--format documentation"
 
-# perftools
-# use walltime instead of cputime
+# perftools: use walltime instead of cputime
 CPUPROFILE_REALTIME=1
 
-# profile object allocations
+# perftools: profile object allocations
 CPUPROFILE_OBJECTS=0
 
-# profile method calls
+# perftools: profile method calls
 CPUPROFILE_METHODS=1
