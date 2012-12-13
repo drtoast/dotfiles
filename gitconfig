@@ -14,5 +14,8 @@
 [apply]
   whitespace = nowarn
 [alias]
-  lol=log --graph --decorate --pretty=oneline --abbrev-commit
+  lol=log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
   co=checkout
+	st = status
+  ec = !git st | grep both | cut -c 23-100 | xargs subl
+  em = !git st | grep modified | cut -c 15-100 | xargs subl

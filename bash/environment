@@ -1,5 +1,5 @@
-# textmate
-export EDITOR="/usr/local/bin/mate -w"
+# sublime text
+export EDITOR='subl -w'
 export GIT_EDITOR=$EDITOR
 
 # capybara webkit: verbose output
@@ -13,3 +13,6 @@ CPUPROFILE_OBJECTS=0
 
 # perftools: profile method calls
 CPUPROFILE_METHODS=1
+
+# jRuby
+# JRUBY_OPTS=-J-Xss10000k
