@@ -1,3 +1,6 @@
+# Homebrew
+export PATH="/usr/local/bin:$PATH"
+
 # Me
 export PATH="$HOME/bin:$PATH"
 
