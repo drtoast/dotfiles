@@ -1,0 +1,9 @@
+{
+	"installed_packages":
+	[
+		"CoffeeScript",
+		"LESS",
+		"Package Control",
+		"ruby-slim.tmbundle"
+	]
+}
