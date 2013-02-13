@@ -14,3 +14,7 @@ alias gd='git diff'
 alias be='bundle exec'
 alias ber='bundle exec rake'
 alias rc='pry -r ./config/environment'
+
+# Pow
+alias pow-restart='touch ~/.pow/restart.txt'
+alias pow-status='launchctl list | grep cx.pow.powd; curl -H host:pow localhost/status.json; echo'

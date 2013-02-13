@@ -1,14 +1,11 @@
-# Default
-export PATH=/usr/local/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/sbin:/usr/local/git/bin:$PATH
-
 # Me
 export PATH="$HOME/bin:$PATH"
-
-# MySQL
-export PATH=/usr/local/mysql/bin:$PATH
 
 # jRuby
 export PATH="$JAVA_HOME/bin:$PATH"
 
 # Node
 export NODE_PATH="$NODE_PATH:/usr/local/lib/node"
+
+# Heroku
+export PATH="/usr/local/heroku/bin:$PATH"

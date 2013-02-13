@@ -21,13 +21,19 @@ def time(times = 1)
   ret
 end
 
+def source_for(object, method)
+  location = object.method(method).source_location
+  `subl #{location[0]}:#{location[1]}` if location
+  location
+end
+
 
 class Object
   # list methods which aren't in superclass
   def local_methods(obj = self)
     (obj.methods - obj.class.superclass.instance_methods).sort
   end
-  
+
   # print documentation
   #
   # ri 'Array#pop'
@@ -46,5 +52,5 @@ end
 def foo
   puts "bar - see #{__FILE__}"
 end
- 
+
 
