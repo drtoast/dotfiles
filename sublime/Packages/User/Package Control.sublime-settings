@@ -2,7 +2,10 @@
 	"installed_packages":
 	[
 		"CoffeeScript",
+		"eco",
+		"Jade",
 		"LESS",
+		"MoveTab",
 		"Package Control",
 		"ruby-slim.tmbundle"
 	]

@@ -1,5 +1,5 @@
 {
   "sublimelinter_executable_map": {
-    "ruby": "/Users/toast/.rvm/rubies/ruby-1.9.3-p194/bin/ruby"
+    "ruby": "/usr/bin/env ruby"
   }
 }
