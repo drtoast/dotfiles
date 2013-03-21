@@ -7,3 +7,4 @@
 :backtrace: false
 :bulk_threshold: 1000
 rdoc: --inline-source --line-numbers
+gem: --no-ri --no-rdoc

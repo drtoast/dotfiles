@@ -3,15 +3,18 @@ case `uname` in
     alias ls='ls --color=auto'
     ;;
 esac
-alias l='ls -al'
-
-alias scpresume='rsync --partial --progress -rsh=ssh'
+alias ll='ls -al'
 
 # Git
 alias gb='git branch'
 alias gba='git branch -a'
 alias gd='git diff'
 
-# Rails
-alias ss='./script/server'
-alias sc='./script/console'
+# Ruby/Rails
+alias be='bundle exec'
+alias ber='bundle exec rake'
+alias rc='pry -r ./config/environment'
+
+# Pow
+alias pow-restart='touch ~/.pow/restart.txt'
+alias pow-status='launchctl list | grep cx.pow.powd; curl -H host:pow localhost/status.json; echo'

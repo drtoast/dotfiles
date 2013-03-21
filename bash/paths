@@ -1,25 +1,14 @@
-# Default
-export PATH=/usr/local/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/sbin:/usr/local/git/bin:$PATH
+# Homebrew
+export PATH="/usr/local/bin:$PATH"
 
 # Me
 export PATH="$HOME/bin:$PATH"
 
-# MacPorts
-# export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# export MANPATH=/opt/local/share/man:$MANPATH
-
-# MySQL
-export PATH=/usr/local/mysql/bin:$PATH
-
-# SMP
-export PATH="$HOME/code/smp-git/bin:$PATH"
-
 # jRuby
-export JRUBY_HOME=/usr/local/jruby;
-export PATH="$PATH:$JRUBY_HOME/bin"
+# export PATH="$JAVA_HOME/bin:$PATH"
 
 # Node
 export NODE_PATH="$NODE_PATH:/usr/local/lib/node"
 
-# TextMate
-export TM_RUBY="/Users/toast/.rvm/bin/rvm-auto-ruby"
+# Heroku
+export PATH="/usr/local/heroku/bin:$PATH"

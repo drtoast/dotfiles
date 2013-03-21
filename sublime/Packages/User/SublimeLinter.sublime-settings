@@ -1,0 +1,5 @@
+{
+  "sublimelinter_executable_map": {
+    "ruby": "/usr/bin/env ruby"
+  }
+}

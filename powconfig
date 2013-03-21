@@ -1,0 +1,4 @@
+# 5 minutes = 300
+# 1 hour = 3600
+export POW_TIMEOUT=3600
+# export POW_WORKERS=3
