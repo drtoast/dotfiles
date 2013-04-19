@@ -2,11 +2,16 @@
 	"installed_packages":
 	[
 		"CoffeeScript",
+		"Cucumber",
 		"eco",
+		"Git",
 		"Jade",
 		"LESS",
 		"MoveTab",
 		"Package Control",
-		"ruby-slim.tmbundle"
+		"ruby-slim.tmbundle",
+		"Sass",
+		"SublimeLinter",
+		"Web Inspector 3"
 	]
 }

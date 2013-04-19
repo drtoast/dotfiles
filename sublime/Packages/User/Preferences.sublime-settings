@@ -9,13 +9,16 @@
 		"CVS",
 		".idea",
 		".jhw-cache",
-		"tmp"
+		".sass-cache",
+		"tmp",
+		"node_modules"
 	],
 	"font_size": 15.0,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Web Inspector 3"
 	],
 	"match_brackets_angle": true,
 	"save_on_focus_lost": true,
