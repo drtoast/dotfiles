@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/User/Monokai Bright (toast).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
@@ -11,18 +11,21 @@
 		".jhw-cache",
 		".sass-cache",
 		"tmp",
-		"node_modules"
+		"node_modules",
+		"log"
 	],
-	"font_size": 15.0,
+	"font_face": "Menlo Regular",
+	"font_size": 16.0,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Web Inspector 3"
+		"Web Inspector 3",
+		"Vintage"
 	],
 	"match_brackets_angle": true,
 	"save_on_focus_lost": true,
 	"show_full_path": true,
+	"show_minimap": false,
 	"show_tab_close_buttons": false,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,

@@ -14,6 +14,7 @@ alias gd='git diff'
 alias be='bundle exec'
 alias ber='bundle exec rake'
 alias rc='pry -r ./config/environment'
+alias killspec='killall -9 rspec phantomjs webkit_server'
 
 # Pow
 alias pow-restart='touch ~/.pow/restart.txt'
