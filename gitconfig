@@ -1,6 +1,6 @@
 [user]
   name = James Reynolds
-  email = toast@drtoast.com
+	email = toast@drtoast.com
 [color]
   ui = auto
   diff = auto
@@ -19,3 +19,10 @@
 	st = status
   ec = !git st | grep both | cut -c 23-100 | xargs subl
   em = !git st | grep modified | cut -c 15-100 | xargs subl
+	serve = daemon --verbose --export-all --base-path=.git --reuseaddr --strict-paths .git/
+[push]
+	default = simple
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f

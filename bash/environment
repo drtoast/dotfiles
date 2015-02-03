@@ -1,6 +1,6 @@
 # sublime text
-export EDITOR='subl -w'
-export GIT_EDITOR=$EDITOR
+export EDITOR='/usr/local/bin/atom'
+export GIT_EDITOR='/usr/local/bin/vim'
 
 # capybara webkit: verbose output
 SPEC_OPTS="--format documentation"
