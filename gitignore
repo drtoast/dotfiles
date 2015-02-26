@@ -3,3 +3,12 @@
 .DS_Store
 .jhw-cache
 /.bundle
+
+atom/.apm
+atom/.node-gyp
+atom/.storage
+atom/.git-history
+atom/compile-cache/
+atom/packages
+atom/storage
+atom/themes

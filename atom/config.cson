@@ -1,0 +1,26 @@
+"*":
+  "release-notes":
+    viewedVersion: "0.95.0"
+  welcome:
+    showOnStartup: false
+  editor:
+    fontFamily: "Menlo"
+    showIndentGuide: true
+    invisibles: {}
+  core:
+    disabledPackages: [
+      "linter-coffeelint"
+      "vim-mode"
+      "linter-rubocop"
+      "linter"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+  "custom-title":
+    template: "<%= relativeFilePath %>"
+  linter: {}
+  rspec: {}
+  "exception-reporting":
+    userId: "041ae847-39a2-4f83-0c25-6bc6766b41a0"

@@ -9,6 +9,9 @@ alias ll='ls -al'
 alias gb='git branch'
 alias gba='git branch -a'
 alias gd='git diff'
+alias gds='git diff --staged'
+alias gpo='git push origin HEAD'
+alias gs='git status -sbu'
 
 # Ruby/Rails
 alias be='bundle exec'

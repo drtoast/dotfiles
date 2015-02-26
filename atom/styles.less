@@ -1,0 +1,41 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+
+// @syntax-background-color: #272822;
+// @syntax-selection-color: #770;
+@variable: #FD971F;
+
+.tree-view {
+  // background-color: @syntax-background-color;
+}
+
+.editor {
+  // background-color: @syntax-background-color;
+
+  .cursor {
+    // background: none;
+  }
+
+  .comment {
+    // color: #999999;
+  }
+
+  .gutter {
+    // background-color: @syntax-background-color;
+  }
+
+  .selection .region {
+    // background-color: @syntax-selection-color;
+  }
+}
+
+.variable {
+  color: @variable;
+}
