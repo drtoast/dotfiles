@@ -3,6 +3,7 @@
 .DS_Store
 .jhw-cache
 /.bundle
+bash/local.sh
 
 atom/.apm
 atom/.node-gyp

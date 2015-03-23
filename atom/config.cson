@@ -24,3 +24,4 @@
   rspec: {}
   "exception-reporting":
     userId: "041ae847-39a2-4f83-0c25-6bc6766b41a0"
+  "git-blame": {}
