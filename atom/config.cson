@@ -7,21 +7,32 @@
     fontFamily: "Menlo"
     showIndentGuide: true
     invisibles: {}
+    fontSize: 19
   core:
     disabledPackages: [
-      "linter-coffeelint"
-      "vim-mode"
       "linter-rubocop"
-      "linter"
+      "linter-jshint"
+      "linter-coffeelint"
+      "tab-move-key"
     ]
     themes: [
       "atom-dark-ui"
       "monokai"
     ]
-  "custom-title":
-    template: "<%= relativeFilePath %>"
-  linter: {}
+  linter:
+    showErrorPanel: false
   rspec: {}
   "exception-reporting":
     userId: "041ae847-39a2-4f83-0c25-6bc6766b41a0"
-  "git-blame": {}
+  "autocomplete-plus": {}
+  "git-history": {}
+  "git-blame":
+    columnWidth: 300
+  autosave:
+    enabled: true
+  "terminal-status": {}
+  "linter-rubocop": {}
+  "tree-view":
+    hideVcsIgnoredFiles: false
+  zentabs:
+    maximumOpenedTabs: 7

@@ -13,6 +13,13 @@ alias gds='git diff --staged'
 alias gpo='git push origin HEAD'
 alias gs='git status -sbu'
 
+git-checkout-story() {
+  git co `git branch | grep $1`
+}
+
+alias gcs=git-checkout-story
+
+
 # Ruby/Rails
 alias be='bundle exec'
 alias ber='bundle exec rake'
