@@ -7,13 +7,14 @@
     fontFamily: "Menlo"
     showIndentGuide: true
     invisibles: {}
-    fontSize: 19
+    fontSize: 17
   core:
     disabledPackages: [
       "linter-rubocop"
       "linter-jshint"
       "linter-coffeelint"
       "tab-move-key"
+      "vim-mode"
     ]
     themes: [
       "atom-dark-ui"
@@ -35,4 +36,4 @@
   "tree-view":
     hideVcsIgnoredFiles: false
   zentabs:
-    maximumOpenedTabs: 7
+    maximumOpenedTabs: 9
