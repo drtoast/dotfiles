@@ -13,6 +13,3 @@ CPUPROFILE_OBJECTS=0
 
 # perftools: profile method calls
 CPUPROFILE_METHODS=1
-
-# jRuby
-# JRUBY_OPTS=-J-Xss10000k
