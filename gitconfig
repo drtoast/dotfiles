@@ -7,7 +7,7 @@
   status = auto
   branch = auto
 [core]
-  editor = emacs
+  editor = vim
   excludesfile = ~/.gitignore
 [branch]
   autosetuprebase = always
@@ -15,14 +15,17 @@
   whitespace = nowarn
 [alias]
   lol=log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
-  co=checkout
+  co = checkout
+  br = branch
 	st = status
   ec = !git st | grep both | cut -c 23-100 | xargs subl
   em = !git st | grep modified | cut -c 15-100 | xargs subl
 	serve = daemon --verbose --export-all --base-path=.git --reuseaddr --strict-paths .git/
 [push]
-	default = simple
+	default = current
 [filter "media"]
 	required = true
 	clean = git media clean %f
 	smudge = git media smudge %f
+[fetch]
+	prune = true
