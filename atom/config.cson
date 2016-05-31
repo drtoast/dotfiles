@@ -1,39 +1,40 @@
 "*":
-  "release-notes":
-    viewedVersion: "0.95.0"
-  welcome:
-    showOnStartup: false
-  editor:
-    fontFamily: "Menlo"
-    showIndentGuide: true
-    invisibles: {}
-    fontSize: 17
+  "autocomplete-plus": {}
+  autosave:
+    enabled: true
   core:
+    closeEmptyWindows: false
     disabledPackages: [
       "linter-rubocop"
       "linter-jshint"
       "linter-coffeelint"
       "tab-move-key"
-      "vim-mode"
     ]
     themes: [
       "atom-dark-ui"
       "monokai"
     ]
-  linter:
-    showErrorPanel: false
-  rspec: {}
+  editor:
+    fontFamily: "Menlo"
+    invisibles: {}
+    showIndentGuide: true
   "exception-reporting":
     userId: "041ae847-39a2-4f83-0c25-6bc6766b41a0"
-  "autocomplete-plus": {}
-  "git-history": {}
   "git-blame":
     columnWidth: 300
-  autosave:
-    enabled: true
-  "terminal-status": {}
+  "git-history": {}
+  linter:
+    showErrorPanel: false
   "linter-rubocop": {}
+  "release-notes":
+    viewedVersion: "0.95.0"
+  rspec: {}
+  tabs:
+    enableVcsColoring: true
+  "terminal-status": {}
   "tree-view":
-    hideVcsIgnoredFiles: false
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
   zentabs:
     maximumOpenedTabs: 9
