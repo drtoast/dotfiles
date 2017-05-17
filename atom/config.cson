@@ -1,5 +1,6 @@
 "*":
-  "autocomplete-plus": {}
+  "autocomplete-plus":
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
   autosave:
     enabled: true
   core:
@@ -10,12 +11,14 @@
       "linter-coffeelint"
       "tab-move-key"
     ]
+    telemetryConsent: "no"
     themes: [
       "atom-dark-ui"
-      "monokai"
+      "atom-dark-syntax"
     ]
   editor:
     fontFamily: "Menlo"
+    fontSize: 13
     invisibles: {}
     showIndentGuide: true
   "exception-reporting":
@@ -32,8 +35,7 @@
   tabs:
     enableVcsColoring: true
   "terminal-status": {}
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
   zentabs:
