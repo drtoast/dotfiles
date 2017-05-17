@@ -1,1 +1,5 @@
+#!/bin/sh
+#
+# Display the fingerprint of your current public key, as it appears at https://github.com/settings/keys
+
 ssh-keygen -l -E md5 -f ~/.ssh/id_rsa.pub
