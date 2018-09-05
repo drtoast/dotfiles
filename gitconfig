@@ -1,5 +1,5 @@
 [user]
-  name = James Reynolds
+	name = James Reynolds
 	email = toast@drtoast.com
 [color]
   ui = auto
@@ -8,13 +8,14 @@
   branch = auto
 [core]
   editor = vim
-  excludesfile = ~/.gitignore
+	excludesfile = /Users/jamesreynolds/.gitignore
 [branch]
   autosetuprebase = always
 [apply]
   whitespace = nowarn
 [alias]
   lol=log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+  graph=log --oneline --graph --decorate
   co = checkout
   br = branch
 	st = status
@@ -22,10 +23,21 @@
   em = !git st | grep modified | cut -c 15-100 | xargs subl
 	serve = daemon --verbose --export-all --base-path=.git --reuseaddr --strict-paths .git/
 [push]
-	default = current
+	default = simple
 [filter "media"]
 	required = true
 	clean = git media clean %f
 	smudge = git media smudge %f
 [fetch]
 	prune = true
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
