@@ -3,7 +3,7 @@ source ~/.bash/completions.sh
 source ~/.bash/paths.sh
 source ~/.bash/config.sh
 source ~/.bash/environment.sh
-source ~/.bash/logging.sh
+# source ~/.bash/logging.sh
 source ~/.bash/nodenv.sh
 
 # rvm
