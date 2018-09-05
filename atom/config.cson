@@ -10,6 +10,7 @@
       "linter-coffeelint"
       "tab-move-key"
     ]
+    telemetryConsent: "no"
     themes: [
       "atom-dark-ui"
       "monokai"
