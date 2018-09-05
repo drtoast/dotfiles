@@ -1,6 +1,6 @@
 export PATH="/Users/jamesreynolds/.nodenv/shims:${PATH}"
 export NODENV_SHELL=bash
-source '/usr/local/Cellar/nodenv/1.0.0/libexec/../completions/nodenv.bash'
+source '/usr/local/Cellar/nodenv/1.1.2/libexec/../completions/nodenv.bash'
 command nodenv rehash 2>/dev/null
 nodenv() {
   local command
