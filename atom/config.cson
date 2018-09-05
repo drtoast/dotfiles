@@ -4,12 +4,15 @@
   autosave:
     enabled: true
   core:
+    closeDeletedFileTabs: true
     closeEmptyWindows: false
     disabledPackages: [
       "linter-rubocop"
       "linter-jshint"
       "linter-coffeelint"
       "tab-move-key"
+      "atom-ide-ui"
+      "ide-typescript"
     ]
     telemetryConsent: "no"
     themes: [
@@ -18,7 +21,6 @@
     ]
   editor:
     fontFamily: "Menlo"
-    fontSize: 13
     invisibles: {}
     showIndentGuide: true
   "exception-reporting":
@@ -26,9 +28,9 @@
   "git-blame":
     columnWidth: 300
   "git-history": {}
-  linter:
-    showErrorPanel: false
+  linter: {}
   "linter-rubocop": {}
+  "linter-ui-default": {}
   "release-notes":
     viewedVersion: "0.95.0"
   rspec: {}
@@ -36,6 +38,9 @@
     enableVcsColoring: true
   "terminal-status": {}
   "tree-view": {}
+  "vim-mode-plus":
+    incrementalSearch: true
+    keymapPToPutWithAutoIndent: true
   welcome:
     showOnStartup: false
   zentabs:
