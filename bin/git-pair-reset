@@ -1,5 +1,4 @@
 #!/bin/sh
-#
 
 git config --local --unset user.name
 git config --local --unset user.initials

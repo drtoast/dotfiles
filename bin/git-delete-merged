@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# delete any merged branches except master
+git branch --merged | egrep -v "(^\*|master|placeholder)" | xargs git branch -d

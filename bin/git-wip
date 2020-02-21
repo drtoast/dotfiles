@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# print a list of branches that are not yet merged
+git branch --sort='-authordate' --format='%(authordate:relative)%09%(refname:short)' --no-merged
